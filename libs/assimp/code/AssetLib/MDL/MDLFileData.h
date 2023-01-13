@@ -91,9 +91,10 @@ namespace MDL   {
 #define AI_MDL_MAGIC_NUMBER_BE_GS7  AI_MAKE_MAGIC("MDL7")
 #define AI_MDL_MAGIC_NUMBER_LE_GS7  AI_MAKE_MAGIC("7LDM")
 
-// magic bytes used in Titanfall 2 MDL meshes
-#define AI_MDL_MAGIC_NUMBER_BE_TF2  AI_MAKE_MAGIC("IDST")
-#define AI_MDL_MAGIC_NUMBER_LE_TF2  AI_MAKE_MAGIC("TSDI")
+// magic bytes used in Titanfall MDL meshes
+#define AI_MDL_MAGIC_NUMBER_BE_TF  AI_MAKE_MAGIC("IDST")
+#define AI_MDL_MAGIC_NUMBER_LE_TF  AI_MAKE_MAGIC("TSDI")
+#define AI_MDL_VERSION_TF1  52
 #define AI_MDL_VERSION_TF2  53
 
 // common limitations for Quake1 meshes. The loader does not check them,
